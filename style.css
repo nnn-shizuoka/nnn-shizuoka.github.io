@@ -55,21 +55,27 @@ header ul li a {
     letter-spacing: 2px;
 }
 
-.mentor_TA h2{
+.mentor_TA h2 {
     font-size: 30px;
     letter-spacing: 2px;
 }
 
-.mentor_TA h3 {
+.mentor h3 {
     font-size: 30px;
     letter-spacing: 2px;
-    padding: 0px;
+    margin: 5px;
+}
+
+.TA h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 5px;
 }
 
 .mentor {
     background-color: #bfe9ff;
-    border-radius: 10px;
-    padding: 100px;
+    border-radius: 30px;
+    padding: 20px 100px;
     margin: 50px;
     display: inline-block;
     width: 25%;
@@ -77,14 +83,15 @@ header ul li a {
 
 .TA {
     background-color: #a5e1ff;
-    border-radius: 10px;
-    padding: 100px;
+    border-radius: 30px;
+    padding: 20px 100px;
     margin: 50px;
     display: inline-block;
-    width: 20%;
+    width: 25%;
 }
 
 .icon {
+    border-radius: 10px;
     width: 100%;
     height: auto;
 }
