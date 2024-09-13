@@ -1,0 +1,96 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #1f286f;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #1f286f;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: serif;
+    color: #FFFFFF;
+    padding: 1px 20px;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+header ul li a {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.top {
+    background-image: url(images/SHIZUOKA.jpg);
+    background-size: cover;
+    padding: 150px;
+    line-height: 10px;
+}
+
+.top h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.top img {
+    width: 80%;
+    height: auto;
+}
+
+.fesinfo h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.mentor_TA h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.mentor_TA h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.mentor_TA h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 0px;
+}
+
+.mentor {
+    background-color: #bfe9ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    display: inline-block;
+    width: 25%;
+}
+
+.TA {
+    background-color: #a5e1ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    display: inline-block;
+    width: 20%;
+}
+
+.icon {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px;
+}
