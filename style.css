@@ -70,7 +70,7 @@ header ul li a {
     background-color: #bfe9ff;
     border-radius: 10px;
     padding: 20px;
-    margin: 100px auto;
+    margin: auto 100px;
     display: inline-block;
     width: 25%;
 }
@@ -79,7 +79,7 @@ header ul li a {
     background-color: #a5e1ff;
     border-radius: 10px;
     padding: 20px;
-    margin: 100px auto;
+    margin: auto 100px;
     display: inline-block;
     width: 20%;
 }
