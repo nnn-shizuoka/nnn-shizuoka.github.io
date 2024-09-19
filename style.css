@@ -5,6 +5,7 @@ body {
     text-align: center;
 }
 
+/*--header--*/
 header {
     background-color: #1f286f;
     display: flex;
@@ -28,6 +29,7 @@ header ul li a {
     text-decoration: none;
 }
 
+/*--top--*/
 .top {
     background-image: url(images/SHIZUOKA.jpg);
     background-size: cover;
@@ -45,11 +47,13 @@ header ul li a {
     height: auto;
 }
 
+/*--fesinfo--*/
 .fesinfo h1 {
     font-size: 50px;
     letter-spacing: 2px;
 }
 
+/*--mentor_TA--*/
 .mentor_TA h1 {
     font-size: 50px;
     letter-spacing: 2px;
@@ -60,10 +64,34 @@ header ul li a {
     letter-spacing: 2px;
 }
 
+.mentor {
+    background-color: #bfe9ff;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    margin: 50px;
+    display: inline-block;
+    width: 20%;
+}
+
 .mentor h3 {
     font-size: 30px;
     letter-spacing: 2px;
     margin: 5px;
+}
+
+.TA {
+    background-color: #a5e1ff;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    margin: 50px;
+    display: inline-block;
+    width: 20%;
 }
 
 .TA h3 {
@@ -72,30 +100,13 @@ header ul li a {
     margin: 5px;
 }
 
-.mentor {
-    background-color: #bfe9ff;
-    border-radius: 30px;
-    padding: 20px 100px;
-    margin: 50px;
-    display: inline-block;
-    width: 25%;
-}
-
-.TA {
-    background-color: #a5e1ff;
-    border-radius: 30px;
-    padding: 20px 100px;
-    margin: 50px;
-    display: inline-block;
-    width: 25%;
-}
-
 .icon {
     border-radius: 10px;
     width: 100%;
     height: auto;
 }
 
+/*--footer--*/
 footer {
     background-color: #333333;
     color: #FFFFFF;
