@@ -33,8 +33,8 @@ header ul li a {
 .top {
     background-image: url(images/SHIZUOKA.jpg);
     background-size: cover;
-    background-position: center;
-    padding: 150px;
+    background-position: center center;
+    padding: 10%;
     line-height: 5px;
 }
 
@@ -52,6 +52,17 @@ header ul li a {
 .fesinfo h1 {
     font-size: 50px;
     letter-spacing: 2px;
+}
+
+.fesinfo h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.fesinfo img {
+    border-radius: 1px;
+    width: 100%;
+    height: auto;
 }
 
 /*--mentor_TA--*/
@@ -104,6 +115,36 @@ header ul li a {
 .icon {
     border-radius: 10px;
     width: 100%;
+    height: auto;
+}
+
+/*--omikuji--*/
+.omikuji h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+button {
+    font-size: 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+    background-color: #FFCC00;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #ffdd33;
+    transform: scale(1.05);
+}
+
+#resultImage {
+    display: block;
+    border-radius: 30px;
+    margin: 20px auto;
+    width: 300px;
     height: auto;
 }
 
