@@ -35,10 +35,11 @@ header ul li a {
     background-size: cover;
     background-position: center center;
     padding: 10%;
-    line-height: 5px;
+    line-height: 0px;
 }
 
 .top h1 {
+    color:#FFFFFF;
     font-size: 40px;
     letter-spacing: 2px;
 }
@@ -141,10 +142,12 @@ button:hover {
 }
 
 #resultImage {
+    background-color: #555555;
     display: block;
     border-radius: 30px;
     margin: 20px auto;
-    width: 300px;
+    padding: 10px;
+    width: 500px;
     height: auto;
 }
 
