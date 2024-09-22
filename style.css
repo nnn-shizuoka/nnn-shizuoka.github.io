@@ -84,7 +84,7 @@ header ul li a {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 5px;
-    margin: 50px;
+    margin: 30px;
     display: inline-block;
     width: 20%;
 }
@@ -102,7 +102,7 @@ header ul li a {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 5px;
-    margin: 50px;
+    margin: 30px;
     display: inline-block;
     width: 20%;
 }
@@ -117,7 +117,7 @@ header ul li a {
     border-radius: 10px;
     width: 100%;
     height: auto;
-}
+} 
 
 /*--omikuji--*/
 .omikuji h1 {
@@ -125,6 +125,7 @@ header ul li a {
     letter-spacing: 2px;
 }
 button {
+    color:black;
     font-size: 30px;
     padding: 15px 30px;
     cursor: pointer;
