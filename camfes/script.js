@@ -1,20 +1,21 @@
 document.getElementById('omikujiButton').addEventListener('click', function() {
     const omikujiResults = [
-        { result: '大吉', image: 'images/daikichi.jpg' },
-        { result: '吉', image: 'images/kichi.jpg' },
-        { result: '中吉', image: 'images/chukichi.jpg' },
-        { result: '小吉', image: 'images/shokichi.jpg' },
-        { result: '末吉', image: 'images/suekichi.jpg' },
-        { result: '凶', image: 'images/kyo.jpg' }
+        { result: '大吉', image: 'images/omikuji/daikichi.jpg' },
+        { result: '吉', image: 'images/omikuji/kichi.jpg' },
+        { result: '中吉', image: 'images/omikuji/chukichi.jpg' },
+        { result: '小吉', image: 'images/omikuji/shokichi.jpg' },
+        { result: '末吉', image: 'images/omikuji/suekichi.jpg' },
+        { result: '凶', image: 'images/omikuji/kyo.jpg' }
     ];
+    
     // おみくじの確率設定
     const weightedResults = [
-        omikujiResults[0], omikujiResults[0], omikujiResults[0],
+        omikujiResults[0], omikujiResults[0], omikujiResults[0], omikujiResults[0], omikujiResults[0],
         omikujiResults[1], omikujiResults[1], omikujiResults[1], omikujiResults[1], omikujiResults[1],
-        omikujiResults[2], omikujiResults[2], omikujiResults[2], omikujiResults[2], omikujiResults[2],
-        omikujiResults[3], omikujiResults[3], omikujiResults[3], omikujiResults[3], omikujiResults[3],
-        omikujiResults[4], omikujiResults[4], omikujiResults[4], omikujiResults[4], omikujiResults[4],
-        omikujiResults[5], omikujiResults[5]
+        omikujiResults[2], omikujiResults[2],
+        omikujiResults[3], omikujiResults[3],
+        omikujiResults[4], omikujiResults[4],
+        omikujiResults[5],
     ];
 
     // 結果の画像を取得
