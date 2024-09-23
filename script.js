@@ -24,7 +24,7 @@ document.getElementById('omikujiButton').addEventListener('click', function() {
     // アニメーション用のインターバル設定
     let animationIndex = 0;
     const animationInterval = setInterval(function() {
-        const randomResult = weightedResults[Math.floor(Math.random() * weightedResults.length)];
+        const randomResult = omikujiResults[Math.floor(Math.random() * omikujiResults.length)];
         resultImage.src = randomResult.image;
     }, 100); 
     setTimeout(function() {
