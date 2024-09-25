@@ -35,6 +35,6 @@ document.getElementById('omikujiButton').addEventListener('click', function() {
 
         resultImage.src = selectedResult.image;
         resultImage.alt = selectedResult.result;
-    }, 1500); 
+    }, 2000); 
 
 });
