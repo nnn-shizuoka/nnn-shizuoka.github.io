@@ -5,17 +5,32 @@ body {
     text-align: center;
 }
 
+section {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
 /*--header--*/
 header {
     background-color: #1f286f;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 header h1 {
     font-family: serif;
     color: #FFFFFF;
-    padding: 1px 20px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+header h1 a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 header ul li {
@@ -34,7 +49,8 @@ header ul li a {
     background-image: url(images/top/shizuoka.jpg);
     background-size: cover;
     background-position: center center;
-    padding: 10%;
+    padding: 150px;
+    padding-top: 210px;
     line-height: 0px;
 }
 
@@ -45,7 +61,7 @@ header ul li a {
 }
 
 .top img {
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -64,6 +80,30 @@ header ul li a {
     border-radius: 1px;
     width: 100%;
     height: auto;
+}
+
+.eat {
+    background-color: #bfff7f;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    width: 20%;
+}
+
+.drink {
+    background-color: #ff7f7f;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    width: 20%;
+}
+
+.item {
+    background-color: #ffff7f;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    width: 20%;
 }
 
 /*--mentor_TA--*/
@@ -156,5 +196,5 @@ button:hover {
 footer {
     background-color: #333333;
     color: #FFFFFF;
-    padding: 10px;
+    padding: 5px;
 }

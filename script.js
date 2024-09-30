@@ -7,11 +7,11 @@ document.getElementById('omikujiButton').addEventListener('click', function() {
         { result: '末吉', image: 'images/omikuji/suekichi.jpg' },
         { result: '凶', image: 'images/omikuji/kyo.jpg' }
     ];
-    
+
     // おみくじの確率設定
     const weightedResults = [
         omikujiResults[0], omikujiResults[0], omikujiResults[0], omikujiResults[0], omikujiResults[0],
-        omikujiResults[1], omikujiResults[1], omikujiResults[1], omikujiResults[1], omikujiResults[1],
+        omikujiResults[1], omikujiResults[1], omikujiResults[1], omikujiResults[1],
         omikujiResults[2], omikujiResults[2],
         omikujiResults[3], omikujiResults[3],
         omikujiResults[4], omikujiResults[4],
