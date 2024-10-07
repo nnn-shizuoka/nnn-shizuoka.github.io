@@ -55,7 +55,7 @@ header ul li a {
 }
 
 .top h1 {
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-size: 40px;
     letter-spacing: 2px;
 }
@@ -76,9 +76,9 @@ header ul li a {
     letter-spacing: 2px;
 }
 
-.fesinfo img {
+.map {
     border-radius: 1px;
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
@@ -157,15 +157,16 @@ header ul li a {
     border-radius: 10px;
     width: 100%;
     height: auto;
-} 
+}
 
 /*--omikuji--*/
 .omikuji h1 {
     font-size: 50px;
     letter-spacing: 2px;
 }
+
 button {
-    color:black;
+    color: black;
     font-size: 30px;
     padding: 15px 30px;
     cursor: pointer;
