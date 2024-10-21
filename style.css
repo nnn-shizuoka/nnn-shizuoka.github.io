@@ -95,6 +95,13 @@ header ul li a {
     height: auto;
 }
 
+.event {
+    border-radius: 1px;
+    width: 30%;
+    height: auto;
+    display: inline-block;
+}
+
 .menu {
     border-radius: 1px;
     width: 70%;
@@ -222,7 +229,24 @@ footer {
     padding-bottom: 10px;
 }
 
-footer img {
-    width: 100px;
+.footer img {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 500px;
+    padding-bottom: 20px;
+}
+
+.slogan {
+    width: auto;
+    height: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.QR {
+    width: 200px;
+    padding-right: 10px;
+    padding-left: 10px;
     padding-bottom: 20px;
 }
