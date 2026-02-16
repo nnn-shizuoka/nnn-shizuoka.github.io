@@ -1,0 +1,25 @@
+.blog_title {
+  margin: 20px;
+  text-align: center;
+}
+
+.article_1 {
+  display: flex;
+  background: #fae9e6;
+  width: 800px;
+  margin: 50px auto;
+  border-radius: 30px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dn {
+  margin: 50px 0px 0px 0px;
+  text-align: left;
+}
+
+.images {
+  height: 280px;
+  width: 280px;
+  margin: 40px;
+  border-radius: 20px;
+}

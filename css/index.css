@@ -1,3 +1,142 @@
+.main-image {
+  margin-top: -130px;
+  margin-bottom: 50px;
+}
+
 section {
-  scroll-margin-top: 128px;
+  scroll-margin-top: 120px;
+  margin-block: 75px;
+} 
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 32px;
+  text-decoration: underline;
+  color: #1F286F;
+}
+
+.button {
+  width: 100%;  
+  max-width: 300px;
+  background-color: #1F286F;
+  color: #fff;
+  border: #1F286F 3px solid;
+  border-radius: 100px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #FF42C9;
+  transition: all 0.1s ease-in-out;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.camfes-container {
+  display: block;
+  margin-inline: auto;
+  margin-top: 50px;
+  max-width: fit-content;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.camfes-image {
+  width: 40vw;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.camfes-container:hover .subtitle {
+  color: #FF42C9;
+  text-decoration: underline;
+}
+
+.camfes-container:hover .camfes-image {
+  transform: scale(1.05);
+}
+
+.products-container {
+  display: block;
+  margin-inline: auto;
+  margin-top: 50px;
+  max-width: fit-content;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.products-image {
+  width: 40vw;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.products-container:hover .subtitle {
+  color: #FF42C9;
+  text-decoration: underline;
+}
+
+.products-container:hover .products-image {
+  transform: scale(1.05);
+}
+
+
+.student-data {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.student-data-total {
+  background-color: #1F286F;
+  border-radius: 40px;
+  padding: 16px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.student-data-total p {
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.student-data-total span {
+  color: #FF42C9;
+  font-size: 5rem;
+}
+
+.student-data-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.student-data-item {
+  background-color: #1F286F;
+  border-radius: 100px;
+  padding: 12px 32px;
+}
+.student-data-item p {
+  color: #FFFFFF;
+  font-size: 1.8rem;
+}
+
+.map {
+  width: 100%;
+  max-width: 60vw;
+  height: 500px;
 }
