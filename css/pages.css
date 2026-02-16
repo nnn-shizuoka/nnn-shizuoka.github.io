@@ -1,0 +1,175 @@
+section {
+  margin-bottom: 50px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.section-title {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.8;
+  margin: 0px auto;
+  max-width: 68vw;
+  color: #000;
+  white-space: pre-line;
+}
+
+.subsection-title {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.8;
+  margin-inline: auto;
+  max-width: 66vw;
+  color: #000;
+  white-space: pre-line;
+}
+
+.section-text {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-inline: auto;
+  margin-bottom: 10px;
+  max-width: 65vw;
+  color: #333;
+  white-space: pre-line;
+}
+
+.section-text a {
+  line-height: 1.2;
+}
+
+li.section-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1.2;
+}
+
+.section-text span {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.article-img {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.article-img img {
+  max-width: 50vw;
+  max-height: 50vh;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.article-img figcaption {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
+
+/* === メディアクエリ === */
+/* タブレット（768px〜1024px） */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .page-title {
+    font-size: 36px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  line-height: 1.6;
+    max-width: 73vw;
+  }
+
+  .subsection-title {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 71vw;
+  }
+
+  .section-text {
+    font-size: 16px;
+    margin-bottom: 8px;
+    max-width: 70vw;
+  }
+
+  .article-img figcaption {
+    font-size: 14px;
+  }
+}
+/* スマホ（480px〜767px） */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  section {
+    margin-bottom: 40px;
+  }
+
+  .page-title {
+    margin-top: 40px;
+    font-size: 28px;
+  }
+
+  .section-title {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 78vw;
+  }
+
+  .subsection-title {
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 76vw;
+  }
+
+  .section-text {
+    font-size: 12px;
+    margin-bottom: 18px;
+    max-width: 75vw;
+  }
+
+  .article-img figcaption {
+    font-size: 10px;
+  }
+}
+/* スマホ（〜479px） */
+@media screen and (max-width: 479px) {
+  section {
+    margin-bottom: 30px;
+  }
+
+  .page-title {
+    margin-block: 25px;
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-size: 12px;
+    line-height: 1.4;
+    max-width: 78vw;
+  }
+
+  .subsection-title {
+    font-size: 11px;
+    line-height: 1.4;
+    max-width: 76vw;
+  }
+
+  .section-text {
+    font-size: 10px;
+    margin-bottom: 12px;
+    max-width: 75vw;
+  }
+
+  .article-img figcaption {
+    font-size: 8px;
+  }
+}
