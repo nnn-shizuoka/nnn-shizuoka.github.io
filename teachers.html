@@ -1,21 +1,184 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>メンター・TA紹介 - N高グループ 静岡キャンパスHP</title>
+  <title>メンター・TA紹介 - N高グループ 静岡キャンパス</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/teachers.css">
 </head>
 <body>
   <header>
-    <p><a href="/index.html">静岡キャンパス公式HP</a></p>
+    <p><a href="/index.html">静岡キャンパスHP</a></p>
     <ul>
-      <li><a href="index.html#mentor_TA">メンター•TA</a></li>
-      <li><a href="index.html#campus_festival">キャンフェス</a></li>
-      <li><a href="index.html#student_data">生徒データ</a></li>
-      <li><a href="index.html#access">アクセス</a></li>
+      <li><a href="/index.html#mentorTA">メンター•TA</a></li>
+      <li><a href="/index.html#camfes">キャンフェス</a></li>
+      <li><a href="/index.html#products">制作物</a></li>
+      <li><a href="/index.html#student">生徒データ</a></li>
+      <li><a href="/index.html#access">アクセス</a></li>
     </ul>
   </header>
+
+  <main>
+    <section id="mentor_list">
+      <h2>メンター紹介</h2>
+      <div class="introduction-grid">
+        <div class="person-card" onclick="openModal('mentor1')">
+          <div class="person-image-container">
+            <img src="img/negami.png" alt="根上佳三" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>根上佳三 <span class="role">(メンター)</span></h3>
+          </div>
+        </div>
+
+        <div class="person-card" onclick="openModal('mentor2')">
+          <div class="person-image-container">
+            <img src="img/endo.jpg" alt="遠藤克哉" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>遠藤克哉 <span class="role">(メンター)</span></h3>
+          </div>
+        </div>
+
+        <div class="person-card" onclick="openModal('mentor3')">
+          <div class="person-image-container">
+            <img src="images/yoshikawa.png" alt="吉川祐" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>吉川祐 <span class="role">(メンター)</span></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="ta_list">
+      <h2>TA紹介</h2>
+      <div class="introduction-grid">
+        <div class="person-card" onclick="openModal('ta1')">
+          <div class="person-image-container">
+            <img src="img/hukumoto.png" alt="福本奈穂" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>福本奈穂 <span class="role">(TA)</span></h3>
+          </div>
+        </div>
+        
+        <div class="person-card" onclick="openModal('ta2')">
+          <div class="person-image-container">
+            <img src="img/morozumi.png" alt="両角帆奈美" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>両角帆奈美 <span class="role">(TA)</span></h3>
+          </div>
+        </div>
+
+        <div class="person-card" onclick="openModal('ta3')">
+          <div class="person-image-container">
+            <img src="img/inoue.png" alt="井上莉那" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>井上莉那 <span class="role">(TA)</span></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>© 2026 N高グループ 静岡キャンパス All Rights Reserved.</footer>
+
+// モーダル
+  <div id="profileModal" class="modal-overlay" onclick="closeModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script>
+    const memberData = {
+      mentor1: {
+        name: "根上佳三",
+        image: "img/negami.png",
+        birthday: "1987年8月14日",
+        hobby: "ドライブ",
+        skill: "声がでかい、人の名前すぐ覚える",
+        hashtag: "B’z"
+      },
+      mentor2: {
+        name: "遠藤克哉",
+        image: "img/endo.jpg",
+        birthday: "9月1日",
+        hobby: "買い物",
+        skill: "寝ること、長時間睡眠",
+        hashtag: "料理"
+      },
+       mentor3: {
+        name: "吉川祐",
+        image: "img/yoshikawa.jpg",
+        birthday: "1996年12月12日",
+        hobby: "推し活",
+        skill: "冷蔵庫にあるもので料理作る",
+        hashtag: "関西"
+      },
+      ta1: {
+        name: "福本奈穂",
+        image: "img/hukumoto.png",
+        birthday: "2004年1月8日",
+        hobby: "散歩",
+        skill: "和太鼓",
+        hashtag: "えい"
+      }, // ← カンマを追加
+      ta2: {
+        name: "両角帆奈美",
+        image: "img/morozumi.png",
+        birthday: "2000年2月15日",
+        hobby: "洋服、コスメ、YouTube",
+        skill: "セルフジェルネイル、大きな声を出すこと",
+        hashtag: "ギャルマインド"
+      }, // ← カンマを追加
+      ta3: {
+        name: "井上莉那",
+        image: "img/inoue.png",
+        birthday: "2002年7月7日",
+        hobby: "映画鑑賞",
+        skill: "ピアノ",
+        hashtag: "ネコ好き"
+      }
+    };
+
+    function openModal(memberId) {
+      const data = memberData[memberId];
+      if (!data) return;
+
+      const modalBody = document.getElementById('modalBody');
+      modalBody.innerHTML = `
+        <div class="teacher-card-horizontal">
+          <div class="teacher-image-wrapper">
+            <div class="gray-placeholder">
+              <img src="${data.image}" alt="${data.name}">
+            </div>
+          </div>
+          <div class="teacher-info-wrapper">
+            <div class="name-badge"><span>${data.name}</span></div>
+            <dl class="profile-details">
+              <div class="profile-item"><dt>生年月日：</dt><dd>${data.birthday}</dd></div>
+              <div class="profile-item"><dt>趣味：</dt><dd>${data.hobby}</dd></div>
+              <div class="profile-item"><dt>特技：</dt><dd>${data.skill}</dd></div>
+              <div class="profile-item"><dt>自分を表すハッシュタグ：</dt><dd>${data.hashtag}</dd></div>
+            </dl>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('profileModal').style.display = 'flex';
+    }
+
+    function closeModal() {
+      document.getElementById('profileModal').style.display = 'none';
+    }
+  </script>
 </body>
 </html>
