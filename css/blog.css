@@ -7,19 +7,36 @@
   display: flex;
   background: #fae9e6;
   width: 800px;
-  margin: 50px auto;
+  margin: 40px auto;
   border-radius: 30px;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
 }
 
 .dn {
-  margin: 50px 0px 0px 0px;
+  margin: 30px 0px 0px 0px;
   text-align: left;
 }
 
+a {
+  text-decoration: none;
+}
+
+.dm {
+  display: flex;
+}
+
+.tag {
+  margin: 0px 5px 0px 5px;
+  padding: 0px 5px 0px 5px;
+  border: solid;
+  border-radius: 5px;
+  border-color: #ffe9e5;
+  background: #fffafa;
+}
+
 .images {
-  height: 280px;
-  width: 280px;
-  margin: 40px;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
   border-radius: 20px;
 }
