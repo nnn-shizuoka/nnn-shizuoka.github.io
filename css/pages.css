@@ -78,6 +78,27 @@ li.section-text {
   text-align: center;
 }
 
+.button {
+  width: 100%;  
+  max-width: 300px;
+  background-color: #1F286F;
+  color: #fff;
+  border: #1F286F 3px solid;
+  border-radius: 100px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-inline: auto;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #FF42C9;
+  transition: all 0.1s ease-in-out;
+}
+
 /* === メディアクエリ === */
 /* タブレット（768px〜1024px） */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
