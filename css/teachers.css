@@ -4,9 +4,15 @@ section {
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2.5rem;;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  font-size: 2rem;
   margin-bottom: 32px;
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .introduction-grid {
@@ -30,6 +36,14 @@ section {
 
 .person-card:hover {
   transform: scale(1.02); 
+}
+.person-card:hover .person-image-container {
+  border-color: #FF42C9;
+  transition: border-color 0.2s ease;
+}
+.person-card:hover .person-details h3 {
+  color: #FF42C9;
+  transition: color 0.2s ease;
 }
 
 .person-image-container {
@@ -129,12 +143,21 @@ section {
 
 .name-badge {
   display: inline-block;
+  padding: 10px 25px;
+  margin-bottom: 25px;
   background-color: #000;
+  border-radius: 10px;
+}
+
+.name-badge h2 {
   color: #fff;
-  padding: 8px 30px;
-  margin-bottom: 20px;
   font-size: 1.8rem;
-  font-weight: bold;
+  line-height: 1.2;
+}
+.name-badge p {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.2;
 }
 
 .profile-details {
@@ -160,39 +183,5 @@ section {
     padding: 30px 15px;
     max-height: 90vh;
     overflow-y: auto;
-  }
-}
-/* 写真を2列に固定する設定 */
-.introduction-grid-2col {
-  display: grid; 
-  grid-template-columns: repeat(2, 1fr); /* 強制的に2列 */
-  gap: 40px; 
-  max-width: 900px; /* 2列に合わせて少し幅を絞ると綺麗です */
-  margin: 40px auto; 
-  padding: 0 20px; 
-}
-
-/* モーダル内の名前をはっきり表示させる */
-.name-badge {
-  display: inline-block;
-  background-color: #000; /* 背景は黒 */
-  color: #ffffff !important; /* 文字を強制的に白にする */
-  padding: 10px 40px;
-  margin-bottom: 25px;
-  border-radius: 4px;
-}
-
-.name-badge span {
-  font-size: 2.2rem;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: #ffffff !important; /* ここでも白を指定 */
-  display: block; /* 確実に表示させる */
-}
-
-/* スマホでは1列にする（レスポンシブ対応） */
-@media (max-width: 600px) {
-  .introduction-grid-2col {
-    grid-template-columns: 1fr;
   }
 }

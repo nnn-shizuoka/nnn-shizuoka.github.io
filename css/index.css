@@ -12,6 +12,7 @@ section {
   font-size: 2.5rem;
   margin-bottom: 32px;
   text-decoration: underline;
+  text-underline-offset: 4px;
   color: #1F286F;
 }
 
@@ -54,14 +55,9 @@ section {
   background: none;
   border: none;
   box-shadow: none;
-  cursor: pointer;
   transition: transform 0.2s ease;
   text-align: center;
   width: 300px;
-}
-
-.person-card:hover {
-  transform: scale(1.02); 
 }
 
 .person-image-container {
@@ -115,6 +111,7 @@ section {
 .camfes-container:hover .subtitle {
   color: #FF42C9;
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .camfes-container:hover .camfes-image {
@@ -141,6 +138,7 @@ section {
 .products-container:hover .subtitle {
   color: #FF42C9;
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .products-container:hover .products-image {
