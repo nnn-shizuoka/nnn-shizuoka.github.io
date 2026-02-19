@@ -20,8 +20,10 @@
   </header>
 
   <main>
+    <h1 class="title">メンター&TA紹介</h1>
+
     <section id="mentor_list">
-      <h2 class="title">メンター</h2>
+      <h2 class="subtitle">メンター</h2>
       <div class="introduction-grid">
         <div class="person-card" onclick="openModal('negami')">
           <div class="person-image-container">
@@ -53,7 +55,7 @@
     </section>
 
     <section id="ta_list">
-      <h2 class="title">TA</h2>
+      <h2 class="subtitle">TA</h2>
       <div class="introduction-grid">
         <div class="person-card" onclick="openModal('morozumi')">
           <div class="person-image-container">
@@ -88,6 +90,15 @@
           </div>
           <div class="person-details">
             <h3>岡本航明</h3>
+          </div>
+        </div>
+
+        <div class="person-card" onclick="openModal('mizuno')">
+          <div class="person-image-container">
+            <img src="img/teachers/ta/mizuno.jpg" alt="水野佑美" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>水野佑美</h3>
           </div>
         </div>
 
@@ -135,6 +146,15 @@
             <h3>鈴木絵梨奈</h3>
           </div>
         </div>
+        <!--
+        <div class="person-card" onclick="openModal('yamashita')">
+          <div class="person-image-container">
+            <img src="img/teachers/ta/yamashita.jpg" alt="山下真実" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>山下真実</h3>
+          </div>
+        </div>-->
       </div>
     </section>
   </main>
@@ -152,7 +172,8 @@
   <script>
     const memberData = {
       negami: {
-        name: "根上佳三",
+        name: "根上 佳三",
+        kana: "ねがみ よしみ",
         image: "img/teachers/mentor/negami.jpg",
         birthday: "1987年8月14日",
         hobby: "ドライブ",
@@ -160,7 +181,8 @@
         hashtag: "B’z"
       },
       endo: {
-        name: "遠藤克哉",
+        name: "遠藤 克哉",
+        kana: "えんどう かつや",
         image: "img/teachers/mentor/endo.jpg",
         birthday: "9月1日",
         hobby: "買い物",
@@ -168,7 +190,8 @@
         hashtag: "料理"
       },
        yoshikawa: {
-        name: "吉川祐",
+        name: "吉川 祐",
+        kana: "よしがわ ゆう",
         image: "img/teachers/mentor/yoshikawa.jpg",
         birthday: "1996年12月12日",
         hobby: "推し活",
@@ -177,7 +200,8 @@
       },
 
       morozumi: {
-        name: "両角帆奈美",
+        name: "両角 帆奈美",
+        kana: "もろずみ ほなみ",
         image: "img/teachers/ta/morozumi.jpg",
         birthday: "2000年2月15日",
         hobby: "洋服、コスメ、YouTube",
@@ -185,7 +209,8 @@
         hashtag: "ギャルマインド"
       },
       fukumoto: {
-        name: "福本奈穂",
+        name: "福本 奈穂",
+        kana: "ふくもと なほ",
         image: "img/teachers/ta/fukumoto.jpg",
         birthday: "2004年1月8日",
         hobby: "散歩",
@@ -193,7 +218,8 @@
         hashtag: "えい"
       },
       inoue: {
-        name: "井上莉那",
+        name: "井上 莉那",
+        kana: "いのうえ りな",
         image: "img/teachers/ta/inoue.jpg",
         birthday: "2002年7月7日",
         hobby: "映画鑑賞",
@@ -201,7 +227,8 @@
         hashtag: "ネコ好き"
       },
       umei: {
-        name: "梅井康希",
+        name: "梅井 康希",
+        kana: "うめい こうき",
         image: "img/teachers/ta/umei.jpg",
         birthday: "2005年1月22日",
         hobby: "Twitter(現X)",
@@ -209,23 +236,35 @@
         hashtag: "ヘアドネーション"
       },
       okamoto: {
-        name: "岡本航明",
+        name: "岡本 航明",
+        kana: "おかもと こうめい",
         image: "img/teachers/ta/okamoto.jpg",
-        birthday: "-",
-        hobby: "-",
-        skill: "-",
-        hashtag: "-"
+        birthday: "2004年1月11日",
+        hobby: "旅行、読書、スポーツ観戦、音楽",
+        skill: "就活相談",
+        hashtag: "マヂこーめい"
+      },
+      mizuno: {
+        name: "水野 佑美",
+        kana: "みずの ゆみ",
+        image: "img/teachers/ta/mizuno.jpg",
+        birthday: "2002年11月17日",
+        hobby: "ドラマ",
+        skill: "体が柔らかい",
+        hashtag: "まじか"
       },
       goto: {
-        name: "後藤太駆",
+        name: "後藤 太駆",
+        kana: "ごとう たける",
         image: "img/teachers/ta/goto.jpg",
-        birthday: "-",
-        hobby: "-",
-        skill: "-",
-        hashtag: "-"
+        birthday: "2006年3月16日",
+        hobby: "音楽鑑賞、物理",
+        skill: "そろばん",
+        hashtag: "九州男児"
       },
       matsumoto: {
-        name: "松本蓮央",
+        name: "松本 蓮央",
+        kana: "まつもと はろう",
         image: "img/teachers/ta/matsumoto.jpg",
         birthday: "2006年12月19日",
         hobby: "生き物、麻雀、旅行",
@@ -233,20 +272,31 @@
         hashtag: "大阪"
       },
       kurotsu: {
-        name: "黒津綾音",
+        name: "黒津 綾音",
+        kana: "くろつ あやね",
         image: "img/teachers/ta/kurotsu.jpg",
-        birthday: "-",
-        hobby: "-",
-        skill: "-",
-        hashtag: "-"
+        birthday: "2004年1月7日",
+        hobby: "ゲーム、ネトフリ鑑賞、犬と遊ぶこと",
+        skill: "ホテル選び",
+        hashtag: "たくさん食べて寝る"
       },
       suzuki: {
-        name: "鈴木絵梨奈",
+        name: "鈴木 絵梨奈",
+        kana: "すずき えりな",
         image: "img/teachers/ta/suzuki.jpg",
         birthday: "2002年10月23日",
         hobby: "旅行",
         skill: "ピアノ",
         hashtag: "おいしい食べ物"
+      },
+      yamashita: {
+        name: "山下 真実",
+        kana: "やました まみ",
+        image: "img/teachers/ta/yamashita.jpg",
+        birthday: "-",
+        hobby: "-",
+        skill: "-",
+        hashtag: "-"
       }
     };
 
@@ -263,7 +313,10 @@
             </div>
           </div>
           <div class="teacher-info-wrapper">
-            <div class="name-badge">${data.name}</div>
+            <div class="name-badge">
+              <h2>${data.name}</h2>
+              <p>（${data.kana}）</p>
+            </div>
             <dl class="profile-details">
               <div class="profile-item">生年月日：${data.birthday}</div>
               <div class="profile-item">趣味：${data.hobby}</div>
