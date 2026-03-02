@@ -1,3 +1,6 @@
+main {
+  flex: 1;
+}
 section {
   margin-bottom: 50px;
 }
@@ -26,16 +29,17 @@ section {
   font-weight: bold;
   line-height: 1.8;
   margin-inline: auto;
-  max-width: 66vw;
+  max-width: 68vw;
   color: #000;
   white-space: pre-line;
+  margin-top: 1rem;
 }
 
 .section-text {
   text-align: left;
   font-size: 18px;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.5;
   margin-inline: auto;
   margin-bottom: 10px;
   max-width: 65vw;
@@ -78,6 +82,10 @@ li.section-text {
   text-align: center;
 }
 
+.kansou {
+  margin-top: 3rem;
+}
+
 .button {
   width: 100%;  
   max-width: 300px;
@@ -89,7 +97,7 @@ li.section-text {
   font-size: 1rem;
   cursor: pointer;
   text-decoration: none;
-  margin-top: 50px;
+  margin-block: 50px;
   margin-inline: auto;
 }
 
@@ -97,6 +105,16 @@ li.section-text {
   background-color: #fff;
   color: #FF42C9;
   transition: all 0.1s ease-in-out;
+}
+
+.update-date {
+  text-align: right;
+  font-size: 16px;
+  font-weight: 550;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  max-width: 85vw;
+  color: #000;
 }
 
 /* === メディアクエリ === */
