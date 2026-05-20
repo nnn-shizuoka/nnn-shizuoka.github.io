@@ -22,17 +22,15 @@
   <main>
     <h1 class="title">メンター&TA紹介</h1>
 
-    <h3 class="comingsoon">Coming soon...</h3>
-    <!--
     <section id="mentor_list">
       <h2 class="subtitle">メンター</h2>
       <div class="introduction-grid">
-        <div class="person-card" onclick="openModal('negami')">
+        <div class="person-card" onclick="openModal('ayumi')">
           <div class="person-image-container">
-            <img src="img/teachers/mentor/negami.jpg" alt="根上佳三" class="person-image">
+            <img src="img/teachers/mentor/ayumi.jpg" alt="井上亜由未" class="person-image">
           </div>
           <div class="person-details">
-            <h3>根上佳三</h3>
+            <h3>井上亜由未</h3>
           </div>
         </div>
 
@@ -44,63 +42,18 @@
             <h3>遠藤克哉</h3>
           </div>
         </div>
-
-        <div class="person-card" onclick="openModal('yoshikawa')">
-          <div class="person-image-container">
-            <img src="img/teachers/mentor/yoshikawa.jpg" alt="吉川祐" class="person-image">
-          </div>
-          <div class="person-details">
-            <h3>吉川祐</h3>
-          </div>
-        </div>
       </div>
     </section>
 
     <section id="ta_list">
       <h2 class="subtitle">TA</h2>
       <div class="introduction-grid">
-        <div class="person-card" onclick="openModal('morozumi')">
-          <div class="person-image-container">
-            <img src="img/teachers/ta/morozumi.jpg" alt="両角帆奈美" class="person-image">
-          </div>
-          <div class="person-details">
-            <h3>両角帆奈美</h3>
-          </div>
-        </div>
-
-        <div class="person-card" onclick="openModal('fukumoto')">
-          <div class="person-image-container">
-            <img src="img/teachers/ta/fukumoto.jpg" alt="福本奈穂" class="person-image">
-          </div>
-          <div class="person-details">
-            <h3>福本奈穂</h3>
-          </div>
-        </div>
-
         <div class="person-card" onclick="openModal('umei')">
           <div class="person-image-container">
             <img src="img/teachers/ta/umei.jpg" alt="梅井康希" class="person-image">
           </div>
           <div class="person-details">
             <h3>梅井康希</h3>
-          </div>
-        </div>
-
-        <div class="person-card" onclick="openModal('okamoto')">
-          <div class="person-image-container">
-            <img src="img/teachers/ta/okamoto.jpg" alt="岡本航明" class="person-image">
-          </div>
-          <div class="person-details">
-            <h3>岡本航明</h3>
-          </div>
-        </div>
-
-        <div class="person-card" onclick="openModal('mizuno')">
-          <div class="person-image-container">
-            <img src="img/teachers/ta/mizuno.jpg" alt="水野佑美" class="person-image">
-          </div>
-          <div class="person-details">
-            <h3>水野佑美</h3>
           </div>
         </div>
 
@@ -122,24 +75,6 @@
           </div>
         </div>
 
-        <div class="person-card" onclick="openModal('matsumoto')">
-          <div class="person-image-container">
-            <img src="img/teachers/ta/matsumoto.jpg" alt="松本蓮央" class="person-image">
-          </div>
-          <div class="person-details">
-            <h3>松本蓮央</h3>
-          </div>
-        </div>
-
-        <div class="person-card" onclick="openModal('kurotsu')">
-          <div class="person-image-container">
-            <img src="img/teachers/ta/kurotsu.jpg" alt="黒津綾音" class="person-image">
-          </div>
-          <div class="person-details">
-            <h3>黒津綾音</h3>
-          </div>
-        </div>
-
         <div class="person-card" onclick="openModal('suzuki')">
           <div class="person-image-container">
             <img src="img/teachers/ta/suzuki.jpg" alt="鈴木絵梨奈" class="person-image">
@@ -157,8 +92,26 @@
             <h3>山下真実</h3>
           </div>
         </div>
+
+        <div class="person-card" onclick="openModal('kishimoto')">
+          <div class="person-image-container">
+            <img src="img/teachers/ta/kishimoto.jpg" alt="岸本佳大" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>岸本佳大</h3>
+          </div>
+        </div>
+
+        <div class="person-card" onclick="openModal('kawaguchi')">
+          <div class="person-image-container">
+            <img src="img/teachers/ta/kawaguchi.jpg" alt="川口将範" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>川口将範</h3>
+          </div>
+        </div>
       </div>
-    </section>-->
+    </section>
   </main>
   
   <footer>© 2026 N高グループ 静岡キャンパス All Rights Reserved.</footer>
@@ -173,14 +126,15 @@
 
   <script>
     const memberData = {
-      negami: {
-        name: "根上 佳三",
-        kana: "ねがみ よしみ",
-        image: "img/teachers/mentor/negami.jpg",
-        birthday: "1987年8月14日",
-        hobby: "ドライブ",
-        skill: "声がでかい、人の名前すぐ覚える",
-        hashtag: "#B’z"
+      // mentor
+      ayumi: {
+        name: "井上 亜由未",
+        kana: "いのうえ あゆみ",
+        image: "img/teachers/mentor/ayumi.jpg",
+        birthday: "7月24日",
+        hobby: "漫画読破",
+        skill: "カラオケ",
+        hashtag: "#歴史家"
       },
       endo: {
         name: "遠藤 克哉",
@@ -191,33 +145,16 @@
         skill: "寝ること、長時間睡眠",
         hashtag: "#料理"
       },
-       yoshikawa: {
-        name: "吉川 祐",
-        kana: "よしがわ ゆう",
-        image: "img/teachers/mentor/yoshikawa.jpg",
-        birthday: "1996年12月12日",
-        hobby: "推し活",
-        skill: "冷蔵庫にあるもので料理作る",
-        hashtag: "#関西"
-      },
 
-      morozumi: {
-        name: "両角 帆奈美",
-        kana: "もろずみ ほなみ",
-        image: "img/teachers/ta/morozumi.jpg",
-        birthday: "2000年2月15日",
-        hobby: "洋服、コスメ、YouTube",
-        skill: "セルフジェルネイル、<br>　　　大きな声を出すこと",
-        hashtag: "#ギャルマインド"
-      },
-      fukumoto: {
-        name: "福本 奈穂",
-        kana: "ふくもと なほ",
-        image: "img/teachers/ta/fukumoto.jpg",
-        birthday: "2004年1月8日",
-        hobby: "散歩",
-        skill: "和太鼓",
-        hashtag: "#えい"
+      // TA
+      umei: {
+        name: "梅井 康希",
+        kana: "うめい こうき",
+        image: "img/teachers/ta/umei.jpg",
+        birthday: "2005年1月22日",
+        hobby: "Twitter(現X)",
+        skill: "走ること",
+        hashtag: "#ヘアドネーション"
       },
       inoue: {
         name: "井上 莉那",
@@ -228,33 +165,6 @@
         skill: "ピアノ",
         hashtag: "#ネコ好き"
       },
-      umei: {
-        name: "梅井 康希",
-        kana: "うめい こうき",
-        image: "img/teachers/ta/umei.jpg",
-        birthday: "2005年1月22日",
-        hobby: "Twitter(現X)",
-        skill: "走ること",
-        hashtag: "#ヘアドネーション"
-      },
-      okamoto: {
-        name: "岡本 航明",
-        kana: "おかもと こうめい",
-        image: "img/teachers/ta/okamoto.jpg",
-        birthday: "2004年1月11日",
-        hobby: "旅行、読書、スポーツ観戦、音楽",
-        skill: "就活相談",
-        hashtag: "#マヂこーめい"
-      },
-      mizuno: {
-        name: "水野 佑美",
-        kana: "みずの ゆみ",
-        image: "img/teachers/ta/mizuno.jpg",
-        birthday: "2002年11月17日",
-        hobby: "ドラマ",
-        skill: "体が柔らかい",
-        hashtag: "#まじか"
-      },
       goto: {
         name: "後藤 太駆",
         kana: "ごとう たける",
@@ -263,24 +173,6 @@
         hobby: "音楽鑑賞、物理",
         skill: "そろばん",
         hashtag: "#九州男児"
-      },
-      matsumoto: {
-        name: "松本 蓮央",
-        kana: "まつもと はろう",
-        image: "img/teachers/ta/matsumoto.jpg",
-        birthday: "2006年12月19日",
-        hobby: "生き物、麻雀、旅行",
-        skill: "お菓子作り",
-        hashtag: "#大阪"
-      },
-      kurotsu: {
-        name: "黒津 綾音",
-        kana: "くろつ あやね",
-        image: "img/teachers/ta/kurotsu.jpg",
-        birthday: "2004年1月7日",
-        hobby: "ゲーム、ネトフリ鑑賞、犬と遊ぶこと",
-        skill: "ホテル選び",
-        hashtag: "#たくさん食べて寝る"
       },
       suzuki: {
         name: "鈴木 絵梨奈",
@@ -299,7 +191,25 @@
         hobby: "バレーボール観戦",
         skill: "ピアノ",
         hashtag: "#一人旅"
-      }
+      },
+      kishimoto: {
+        name: "岸本 佳大",
+        kana: "きしもと けいた",
+        image: "img/teachers/ta/kishimoto.jpg",
+        birthday: "2004年10月26日",
+        hobby: "ゲーム、ライブ参戦",
+        skill: "硬式テニス",
+        hashtag: "#ソロキャン"
+      },
+      kawaguchi: {
+        name: "川口 将範",
+        kana: "かわぐち まさのり",
+        image: "img/teachers/ta/kawaguchi.jpg",
+        birthday: "2005年1月7日",
+        hobby: "バスケ、散歩",
+        skill: "記憶力がいい",
+        hashtag: "#川口徘徊中"
+      },
     };
 
     function openModal(memberId) {
