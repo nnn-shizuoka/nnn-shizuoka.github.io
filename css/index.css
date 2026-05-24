@@ -1,4 +1,7 @@
 .main-image {
+  display: block;
+  width: 100%;
+  height: auto;
   margin-top: -130px;
   margin-bottom: 50px;
 }
@@ -191,4 +194,127 @@ section {
   width: 100%;
   max-width: 60vw;
   height: 500px;
+}
+
+@media (max-width: 768px) {
+  .main-image {
+    display: none;
+  }
+
+  section {
+    scroll-margin-top: 105px;
+    margin-block: 56px;
+    padding-inline: 20px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 24px;
+  }
+
+  .subtitle {
+    font-size: 1.35rem;
+    margin-bottom: 12px;
+  }
+
+  .button {
+    width: min(100%, 220px);
+    margin-top: 32px;
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+
+  .introduction-grid {
+    grid-template-columns: 1fr;
+    max-width: 240px;
+    gap: 24px;
+  }
+
+  .person-card {
+    width: 100%;
+  }
+
+  .person-image-container {
+    border-radius: 22px;
+  }
+
+  .person-details h3 {
+    font-size: 1.05em;
+  }
+
+  .camfes-container,
+  .products-container {
+    width: 100%;
+    max-width: 560px;
+    margin-top: 36px;
+  }
+
+  .camfes-image,
+  .products-image {
+    width: 100%;
+    max-width: 560px;
+    border-radius: 12px;
+  }
+
+  .student-data {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .student-data-total {
+    width: min(100%, 320px);
+    box-sizing: border-box;
+    border-radius: 28px;
+    padding: 18px 24px;
+  }
+
+  .student-data-total p {
+    font-size: 1.7rem;
+  }
+
+  .student-data-total span {
+    font-size: 3.8rem;
+  }
+
+  .student-data-details {
+    width: min(100%, 320px);
+    gap: 12px;
+  }
+
+  .student-data-item {
+    border-radius: 24px;
+    padding: 10px 20px;
+  }
+
+  .student-data-item p {
+    font-size: 1.25rem;
+  }
+
+  .map {
+    max-width: 100%;
+    height: 360px;
+  }
+}
+
+@media (max-width: 420px) {
+  section {
+    padding-inline: 16px;
+  }
+
+  .title {
+    font-size: 1.55rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .student-data-total p {
+    font-size: 1.45rem;
+  }
+
+  .student-data-total span {
+    font-size: 3.2rem;
+  }
 }

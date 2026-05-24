@@ -10,9 +10,14 @@
 </head>
 
 <body>
-  <header>
+  <header class="site-header">
     <p><a href="index.html">静岡キャンパスHP</a></p>
-    <ul>
+    <button class="menu-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul id="global-nav" class="global-nav">
       <li><a href="#mentorTA">メンター•TA</a></li>
       <li><a href="#camfes">キャンフェス</a></li>
       <li><a href="#products">制作物</a></li>
@@ -140,5 +145,6 @@
   </section>
 
   <footer>© 2026 N高グループ 静岡キャンパス All Rights Reserved.</footer>
+  <script src="js/header.js"></script>
 </body>
 </html>
