@@ -9,78 +9,105 @@
 </head>
 <body>
   <header>
-    <p><a href="/index.html">静岡キャンパスHP</a></p>
+    <p><a href="index.html">静岡キャンパスHP</a></p>
     <ul>
-      <li><a href="/index.html#mentorTA">メンター•TA</a></li>
-      <li><a href="/index.html#camfes">キャンフェス</a></li>
-      <li><a href="/index.html#products">制作物</a></li>
-      <li><a href="/index.html#student">生徒データ</a></li>
-      <li><a href="/index.html#access">アクセス</a></li>
+      <li><a href="index.html#mentorTA">メンター•TA</a></li>
+      <li><a href="index.html#camfes">キャンフェス</a></li>
+      <li><a href="index.html#products">制作物</a></li>
+      <li><a href="index.html#student">生徒データ</a></li>
+      <li><a href="index.html#access">アクセス</a></li>
     </ul>
   </header>
 
   <main>
+    <h1 class="title">メンター&TA紹介</h1>
+
     <section id="mentor_list">
-      <h2>メンター紹介</h2>
+      <h2 class="subtitle">メンター</h2>
       <div class="introduction-grid">
-        <div class="person-card" onclick="openModal('mentor1')">
+        <div class="person-card" onclick="openModal('ayumi')">
           <div class="person-image-container">
-            <img src="img/negami.png" alt="根上佳三" class="person-image">
+            <img src="img/teachers/mentor/ayumi.jpg" alt="井上亜由未" class="person-image">
           </div>
           <div class="person-details">
-            <h3>根上佳三 <span class="role">(メンター)</span></h3>
+            <h3>井上亜由未</h3>
           </div>
         </div>
 
-        <div class="person-card" onclick="openModal('mentor2')">
+        <div class="person-card" onclick="openModal('endo')">
           <div class="person-image-container">
-            <img src="img/endo.jpg" alt="遠藤克哉" class="person-image">
+            <img src="img/teachers/mentor/endo.jpg" alt="遠藤克哉" class="person-image">
           </div>
           <div class="person-details">
-            <h3>遠藤克哉 <span class="role">(メンター)</span></h3>
-          </div>
-        </div>
-
-        <div class="person-card" onclick="openModal('mentor3')">
-          <div class="person-image-container">
-            <img src="images/yoshikawa.png" alt="吉川祐" class="person-image">
-          </div>
-          <div class="person-details">
-            <h3>吉川祐 <span class="role">(メンター)</span></h3>
+            <h3>遠藤克哉</h3>
           </div>
         </div>
       </div>
     </section>
 
-    <hr>
-
     <section id="ta_list">
-      <h2>TA紹介</h2>
+      <h2 class="subtitle">TA</h2>
       <div class="introduction-grid">
-        <div class="person-card" onclick="openModal('ta1')">
+        <div class="person-card" onclick="openModal('umei')">
           <div class="person-image-container">
-            <img src="img/hukumoto.png" alt="福本奈穂" class="person-image">
+            <img src="img/teachers/ta/umei.jpg" alt="梅井康希" class="person-image">
           </div>
           <div class="person-details">
-            <h3>福本奈穂 <span class="role">(TA)</span></h3>
+            <h3>梅井康希</h3>
+          </div>
+        </div>
+
+        <div class="person-card" onclick="openModal('inoue')">
+          <div class="person-image-container">
+            <img src="img/teachers/ta/inoue.jpg" alt="井上莉那" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>井上莉那</h3>
+          </div>
+        </div>
+
+        <div class="person-card" onclick="openModal('goto')">
+          <div class="person-image-container">
+            <img src="img/teachers/ta/goto.jpg" alt="後藤太駆" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>後藤太駆</h3>
+          </div>
+        </div>
+
+        <div class="person-card" onclick="openModal('suzuki')">
+          <div class="person-image-container">
+            <img src="img/teachers/ta/suzuki.jpg" alt="鈴木絵梨奈" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>鈴木絵梨奈</h3>
           </div>
         </div>
         
-        <div class="person-card" onclick="openModal('ta2')">
+        <div class="person-card" onclick="openModal('yamashita')">
           <div class="person-image-container">
-            <img src="img/morozumi.png" alt="両角帆奈美" class="person-image">
+            <img src="img/teachers/ta/yamashita.jpg" alt="山下真実" class="person-image">
           </div>
           <div class="person-details">
-            <h3>両角帆奈美 <span class="role">(TA)</span></h3>
+            <h3>山下真実</h3>
           </div>
         </div>
 
-        <div class="person-card" onclick="openModal('ta3')">
+        <div class="person-card" onclick="openModal('kishimoto')">
           <div class="person-image-container">
-            <img src="img/inoue.png" alt="井上莉那" class="person-image">
+            <img src="img/teachers/ta/kishimoto.jpg" alt="岸本佳大" class="person-image">
           </div>
           <div class="person-details">
-            <h3>井上莉那 <span class="role">(TA)</span></h3>
+            <h3>岸本佳大</h3>
+          </div>
+        </div>
+
+        <div class="person-card" onclick="openModal('kawaguchi')">
+          <div class="person-image-container">
+            <img src="img/teachers/ta/kawaguchi.jpg" alt="川口将範" class="person-image">
+          </div>
+          <div class="person-details">
+            <h3>川口将範</h3>
           </div>
         </div>
       </div>
@@ -89,7 +116,7 @@
   
   <footer>© 2026 N高グループ 静岡キャンパス All Rights Reserved.</footer>
 
-// モーダル
+  <!-- モーダル -->
   <div id="profileModal" class="modal-overlay" onclick="closeModal()">
     <div class="modal-content" onclick="event.stopPropagation()">
       <span class="close-btn" onclick="closeModal()">&times;</span>
@@ -99,54 +126,90 @@
 
   <script>
     const memberData = {
-      mentor1: {
-        name: "根上佳三",
-        image: "img/negami.png",
-        birthday: "1987年8月14日",
-        hobby: "ドライブ",
-        skill: "声がでかい、人の名前すぐ覚える",
-        hashtag: "B’z"
+      // mentor
+      ayumi: {
+        name: "井上 亜由未",
+        kana: "いのうえ あゆみ",
+        image: "img/teachers/mentor/ayumi.jpg",
+        birthday: "7月24日",
+        hobby: "漫画読破",
+        skill: "カラオケ",
+        hashtag: "#歴史家"
       },
-      mentor2: {
-        name: "遠藤克哉",
-        image: "img/endo.jpg",
+      endo: {
+        name: "遠藤 克哉",
+        kana: "えんどう かつや",
+        image: "img/teachers/mentor/endo.jpg",
         birthday: "9月1日",
         hobby: "買い物",
         skill: "寝ること、長時間睡眠",
-        hashtag: "料理"
+        hashtag: "#料理"
       },
-       mentor3: {
-        name: "吉川祐",
-        image: "img/yoshikawa.jpg",
-        birthday: "1996年12月12日",
-        hobby: "推し活",
-        skill: "冷蔵庫にあるもので料理作る",
-        hashtag: "関西"
+
+      // TA
+      umei: {
+        name: "梅井 康希",
+        kana: "うめい こうき",
+        image: "img/teachers/ta/umei.jpg",
+        birthday: "2005年1月22日",
+        hobby: "Twitter(現X)",
+        skill: "走ること",
+        hashtag: "#ヘアドネーション"
       },
-      ta1: {
-        name: "福本奈穂",
-        image: "img/hukumoto.png",
-        birthday: "2004年1月8日",
-        hobby: "散歩",
-        skill: "和太鼓",
-        hashtag: "えい"
-      }, // ← カンマを追加
-      ta2: {
-        name: "両角帆奈美",
-        image: "img/morozumi.png",
-        birthday: "2000年2月15日",
-        hobby: "洋服、コスメ、YouTube",
-        skill: "セルフジェルネイル、大きな声を出すこと",
-        hashtag: "ギャルマインド"
-      }, // ← カンマを追加
-      ta3: {
-        name: "井上莉那",
-        image: "img/inoue.png",
+      inoue: {
+        name: "井上 莉那",
+        kana: "いのうえ りな",
+        image: "img/teachers/ta/inoue.jpg",
         birthday: "2002年7月7日",
         hobby: "映画鑑賞",
         skill: "ピアノ",
-        hashtag: "ネコ好き"
-      }
+        hashtag: "#ネコ好き"
+      },
+      goto: {
+        name: "後藤 太駆",
+        kana: "ごとう たける",
+        image: "img/teachers/ta/goto.jpg",
+        birthday: "2006年3月16日",
+        hobby: "音楽鑑賞、物理",
+        skill: "そろばん",
+        hashtag: "#九州男児"
+      },
+      suzuki: {
+        name: "鈴木 絵梨奈",
+        kana: "すずき えりな",
+        image: "img/teachers/ta/suzuki.jpg",
+        birthday: "2002年10月23日",
+        hobby: "旅行",
+        skill: "ピアノ",
+        hashtag: "#おいしい食べ物"
+      },
+      yamashita: {
+        name: "山下 真実",
+        kana: "やました まみ",
+        image: "img/teachers/ta/yamashita.jpg",
+        birthday: "2005年4月16日",
+        hobby: "バレーボール観戦",
+        skill: "ピアノ",
+        hashtag: "#一人旅"
+      },
+      kishimoto: {
+        name: "岸本 佳大",
+        kana: "きしもと けいた",
+        image: "img/teachers/ta/kishimoto.jpg",
+        birthday: "2004年10月26日",
+        hobby: "ゲーム、ライブ参戦",
+        skill: "硬式テニス",
+        hashtag: "#ソロキャン"
+      },
+      kawaguchi: {
+        name: "川口 将範",
+        kana: "かわぐち まさのり",
+        image: "img/teachers/ta/kawaguchi.jpg",
+        birthday: "2005年1月7日",
+        hobby: "バスケ、散歩",
+        skill: "記憶力がいい",
+        hashtag: "#川口徘徊中"
+      },
     };
 
     function openModal(memberId) {
@@ -162,12 +225,15 @@
             </div>
           </div>
           <div class="teacher-info-wrapper">
-            <div class="name-badge"><span>${data.name}</span></div>
+            <div class="name-badge">
+              <h2>${data.name}</h2>
+              <p>（${data.kana}）</p>
+            </div>
             <dl class="profile-details">
-              <div class="profile-item"><dt>生年月日：</dt><dd>${data.birthday}</dd></div>
-              <div class="profile-item"><dt>趣味：</dt><dd>${data.hobby}</dd></div>
-              <div class="profile-item"><dt>特技：</dt><dd>${data.skill}</dd></div>
-              <div class="profile-item"><dt>自分を表すハッシュタグ：</dt><dd>${data.hashtag}</dd></div>
+              <div class="profile-item">生年月日：${data.birthday}</div>
+              <div class="profile-item">趣味：${data.hobby}</div>
+              <div class="profile-item">特技：${data.skill}</div>
+              <div class="profile-item">自分を表すハッシュタグ：${data.hashtag}</div>
             </dl>
           </div>
         </div>

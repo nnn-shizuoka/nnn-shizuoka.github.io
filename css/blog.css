@@ -3,13 +3,17 @@
   text-align: center;
 }
 
-.article_1 {
+.article {
   display: flex;
   background: #fae9e6;
   width: 800px;
   margin: 40px auto;
   border-radius: 30px;
-  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.article:hover {
+  transform: scale(1.01);
+  transition: transform 0.2s ease-in-out;
 }
 
 .dn {
